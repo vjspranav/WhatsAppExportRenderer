@@ -1,0 +1,41 @@
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-y: auto;
+    /* Enable vertical scrolling within the chat container */
+    max-height: 600px;
+}
+
+.chat-message {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sender {
+    background-color: #DCF8C6;
+}
+
+.receiver {
+    background-color: #E0E0E0;
+}
+
+.attachment img,
+.attachment video {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.date-header {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* Set to the background color of your chat container */
+    z-index: 1;
+    /* Ensure it appears above the chat messages */
+    padding: 10px;
+    color: #888;
+    font-size: 14px;
+}

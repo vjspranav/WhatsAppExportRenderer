@@ -15,3 +15,8 @@ This is a simple webpage that loads exported whatsapp chats as a website. It is 
     - `python3 convertmsgtojs.py <path to exported chat>`
     > Note: This script requires Python 3.6 or higher.
 4. Open the `index.html` file in your browser.
+
+
+## Sample
+![Sample](image.png)
+This is a sample of how the website looks like.
